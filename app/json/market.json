@@ -1,0 +1,150 @@
+{
+	"furniture" : [ 
+		{
+			"name" : "Stanista",
+			"pic" : "/images/pic/stanista.jpg",
+			"itemDescription" : "very large dress with mirror. used for a year",
+			"price" : "$100",
+			"itemImage" : "/images/furniture/stanista.jpg"
+		},
+		{
+			"name" : "Tammy",
+			"pic" : "/images/pic/tammy.jpg",
+			"itemDescription" : "$10 for the lamp",
+			"price" : "$10",
+			"image" : "/images/furniture/tammy.jpg"
+		},
+		{
+			"name" : "Olga",
+			"pic" : "/images/pic/olga.jpg",
+			"itemDescription" : "$15 for this couch. I will literally take whatever I can get",
+			"price" : "$15",
+			"image" : "/images/furniture/olga.jpg"
+		},
+		{
+			"name" : "Jason",
+			"pic" : "/images/pic/jason.jpg",
+			"itemDescription" : "Getting rid of these two couches for FREE. I need someone who can take both as soon as possible.",
+			"price" : "$0",
+			"image" : "/images/furniture/jason.jpg"
+		},
+		{
+			"name" : "Natalie",
+			"pic" : "/images/pic/natalie.jpg",
+			"itemDescription" : "Selling vintage parquet coffee table for $10 OBO. Must pick up. Near 27th and Hoover.",
+			"price" : "$10",
+			"image" : "/images/furniture/natalie.jpg"
+		}
+	],
+	"bike" : [
+		{
+			"name" : "Natalie",
+			"pic" : "/images/pic/natalie.jpg",
+			"itemDescription" : "$100, Message me back",
+			"price" : "$100",
+			"image" : "/images/bike/natalie.jpg"
+		},
+		{
+			"name" : "Jason",
+			"pic" : "/images/pic/jason.jpg",
+			"itemDescription" : "Bike for sale, pick up today! Kind of dirty but functional. 50$ including the lock. Message me.",
+			"price" : "$50",
+			"itemImage" : "/images/bike/jason.jpg"
+		},
+		{
+			"name" : "Olga",
+			"pic" : "/images/pic/olga.jpg",
+			"itemDescription" : "Selling a bike. $20 obo",
+			"price" : "$25",
+			"image" : "/images/bike/olga.jpg"
+		},
+		{
+			"name" : "Tammy",
+			"pic" : "/images/pic/tammy.jpg",
+			"itemDescription" : "Road Bike with Lock and Key - $100",
+			"price" : "$100",
+			"image" : "/images/bike/tammy.jpg"
+		},
+		{
+			"name" : "Stanista",
+			"pic" : "/images/pic/stanista.jpg",
+			"itemDescription" : "Bike for sale. $50 obo. Missing (stolen)seat. New seat should be about $10.",
+			"price" : "$50",
+			"itemImage" : "/images/bike/stanista.jpg"
+		}
+	],
+	"clothes" : [
+		{
+			"name" : "Olga",
+			"pic" : "/images/pic/olga.jpg",
+			"itemDescription" : "Brand new bikini, never worn for sale!! 9am-3pm today! Msg me for my address!",
+			"price" : "$20",
+			"image" : "/images/clothes/olga.jpg"
+		},
+		{
+			"name" : "Stanista",
+			"pic" : "/images/pic/stanista.jpg",
+			"itemDescription" : "Clothes for only $5 each!!!! Sale today from 9am-3pm!!",
+			"price" : "$5",
+			"itemImage" : "/images/clothes/stanista.jpg"
+		},
+		{
+			"name" : "Tammy",
+			"pic" : "/images/pic/tammy.jpg",
+			"itemDescription" : "Heals..!!! 5.6 and 7 sizes",
+			"price" : "$10",
+			"image" : "/images/clothes/tammy.jpg"
+		},
+		{
+			"name" : "Natalie",
+			"pic" : "/images/pic/natalie.jpg",
+			"itemDescription" : "$4 H&M",
+			"price" : "$4",
+			"image" : "/images/clothes/natalie.jpg"
+		},
+		{
+			"name" : "Jason",
+			"pic" : "/images/pic/jason.jpg",
+			"itemDescription" : "Silver sandals - $10 worn once, size 9",
+			"price" : "$10",
+			"itemImage" : "/images/clothes/jason.jpg"
+		}
+	],
+	"electronics" : [
+		{
+			"name" : "Tammy",
+			"pic" : "/images/pic/tammy.jpg",
+			"itemDescription" : "Selling Lenovo Y560 Laptop Intel Core i7 CPU Q740 @ 1.73GHz 8.00 GB RAM 64-bit Operating System Windows 8 Pro In great condition with minor cosmetic flaws - some scratches.Asking for $800, open to negotiation.",
+			"price" : "$800",
+			"image" : "/images/electronics/tammy.jpg"
+		},
+		{
+			"name" : "Olga",
+			"pic" : "/images/pic/olga.jpg",
+			"itemDescription" : "Printer!!",
+			"price" : "$15",
+			"image" : "/images/electronics/olga.jpg"
+		},
+		{
+			"name" : "Natalie",
+			"pic" : "/images/pic/natalie.jpg",
+			"itemDescription" : "Yamaha YPG-235 Keyboard+stand $100",
+			"price" : "$100",
+			"image" : "/images/electronics/natalie.jpg"
+		},
+		{
+			"name" : "Jason",
+			"pic" : "/images/pic/jason.jpg",
+			"itemDescription" : "Selling Samsung Galaxy Note 2 WORKS PERFECTLY but is cracked as shown in the picture $150 OBO",
+			"price" : "$150",
+			"itemImage" : "/images/electroncs/jason.jpg"
+		},
+		{
+			"name" : "Stanista",
+			"pic" : "/images/pic/stanista.jpg",
+			"itemDescription" : "Selling huge Toshiba 46H83 46-Inch HDTV Projection TV (CRT) in excellent condition. ",
+			"price" : "$250",
+			"itemImage" : "/images/electronics/stanista.jpg"
+		}
+	]
+}

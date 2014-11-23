@@ -1,0 +1,82 @@
+<div>
+
+            <div>
+                <img src="images/USC-logo.gif" height="50px" width="50px">
+                <span>University Of Southern California</span>
+
+                <button style="float:right;margin-top:12px" class="btn btn-danger btn-xs" ng-click="logout()">Logout</button>
+                <span style="margin-top:12px;float:right;font-weight:lighter;color:#808080;font-size:16px;margin-right:10px">Welcome, <b>Kushal </b></span>
+
+            </div>
+
+            <h2 style="margin-top:40px;margin-bottom:40px;font-weight:lighter; font-size:70px; margin-left:auto;margin-right:auto;text-align:center"><img  ng-src="/images/Trojans.jpeg" width="200"/></h2>
+
+            <div class="header">
+                <ul class="nav nav-pills nav-justified">
+                    <li ng-class="{ active: isActive('/market')}"><a ng-href="/#/market">Market</a></li>
+                    <li ng-class="{ active: isActive('/deals')}"><a ng-href="/#/deals">Deals</a></li>
+                    <li ng-class="{ active: isActive('/tickets')}"><a ng-href="/#/tickets">Tickets</a></li>
+                </ul>
+            </div>
+
+</div>
+
+
+
+
+<p style="font-weight:lighter;font-size:20px">
+    Featured
+</p>
+<div class="bs-example">
+    <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+        <!-- Carousel indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <!-- Carousel items -->
+        <div class="carousel-inner">
+            <div class="item" style="background:url(http://cdn2.moneysavingmom.com/wp-content/uploads/2013/08/s213.jpg);background-size:cover">
+                <h2></h2>
+                <div class="carousel-caption">
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="item" style="background:url(http://techdebriefs.files.wordpress.com/2013/07/screen-shot-2013-07-18-at-11-16-19-pm.png);background-size:cover">
+                <h2></h2>
+                <div class="carousel-caption">
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="active item" style="background:url(images/Untitled1.png);background-size:cover">
+                <h2></h2>
+                <div class="carousel-caption">
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel nav -->
+        <span class="carousel-control left" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </span>
+        <span class="carousel-control right" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </span>
+    </div>
+</div>
+
+<br>
+<br>
+<p style="font-weight:lighter;font-size:20px">
+    Deals Near You
+</p>
+<marquee behavior="scroll" direction="up" style="height:300px">
+    <img src="images/Untitled2.png"/>
+    <img src="images/Untitled3.png"/>
+    <img src="images/Untitled4.png"/>
+    <img src="images/Untitled5.png"/>
+</marquee>

@@ -1,0 +1,121 @@
+<div>
+
+            <div>
+                 <img src="images/USC-logo.gif" height="50px" width="50px">
+                <span >University Of Southern California</span>
+
+                <button style="float:right;margin-top:12px" class="btn btn-danger btn-xs" ng-click="logout()">Logout</button>
+                <span style="margin-top:12px;float:right;font-weight:lighter;color:#808080;font-size:16px;margin-right:10px">Welcome, <b>Kushal </b></span>
+
+            </div>
+
+            <h2 style="margin-top:40px;margin-bottom:40px;font-weight:lighter; font-size:70px; margin-left:auto;margin-right:auto;text-align:center"><img  ng-src="/images/Trojans.jpeg" width="200"/></h2>
+
+            <div class="header">
+                <ul class="nav nav-pills nav-justified">
+                    <li ng-class="{ active: isActive('/market')}"><a ng-href="/#/market">Market</a></li>
+                    <li ng-class="{ active: isActive('/deals')}"><a ng-href="/#/deals">Deals</a></li>
+                    <li ng-class="{ active: isActive('/tickets')}"><a ng-href="/#/tickets">Tickets</a></li>
+                </ul>
+            </div>
+
+</div>
+
+
+
+
+<div >
+    <p style="font-weight:lighter;font-size:20px">
+        Featured
+    </p>
+
+    <div class="jumbotron" style="background-color:#D9EDF7">
+        <h3 style="font-weight:bold">USC Coleseum</h3>
+        <p>good kid... m.a.a.d. city Tour </p>
+        <img src="http://defsounds.com/wp-content/uploads/GKMC2013.jpg"></img>
+    </div>
+
+
+    <p style="font-weight:lighter;font-size:20px">
+        Sports
+    </p>
+    <accordion close-others="true">
+
+        <accordion-group style="background-color:#DFF0D8">
+            <accordion-heading>
+                Men's Soccer: USC Vs UCLA<span class="label label-primary" style="float:right">$75</span>
+                <span style="float:right;margin-right:10px">January 14th</span>
+            </accordion-heading>
+             <div>
+                 <img style="margin-right:auto;margin-left:auto;display:block" src="http://www.stubhub.com/data/venue_maps/6424/thumb/stubhub_9931_StubHubCenter_Soccer.png">
+                 <br>
+                 <br>
+
+                 <div class="panel panel-default" style="width:500px;margin-right:auto;margin-left:auto;display:block;">
+                     <div class="panel-heading" style="text-align:center">My Tickets</div>
+                     <div class="panel-body">
+                         <ul class="list-group">
+                             <li class="list-group-item">Ticket: Purchased January 1st
+                                 <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" style="float:right">
+                                    Resell <span class="caret"></span>
+                                 </button>
+                                 <br> Section 12, Row H, Seat 32</li>
+                         </ul>
+                     </div>
+                 </div>
+                 <br>
+
+                 <div class="panel panel-default" style="width:200px;margin-right:auto;margin-left:auto;display:block">
+                     <div class="panel-heading" style="text-align:center">Buy Tickets</div>
+                     <div class="panel-body">
+                         <ul class="list-group">
+                             <li class="list-group-item">Section: <span style="float:right;font-weight:bold"> 13</span></li>
+                             <li class="list-group-item">Row: <span style="float:right;font-weight:bold"> L</span></li>
+                             <li class="list-group-item">Seat: <span style="float:right;font-weight:bold"> 6</span></li>
+                         </ul>
+                         <img src="http://www.thesurgeryship.com/wp-content/uploads/2014/02/paypal-button-image-e1362468738704.png" width="150px" height="50px" style="margin-right:auto;margin-left:auto;display:block">
+                     </div>
+                 </div>
+
+             </div>
+
+
+              </accordion-group>
+    </accordion>
+    <p style="font-weight:lighter;font-size:20px">
+        Concerts
+    </p>
+    <accordion close-others="true">
+        <accordion-group >
+            <accordion-heading>
+                Kendrick Lamar @ State Farm Center<span class="label label-primary" style="float:right">$291</span>
+                <span style="float:right;margin-right:10px">January 3rd</span>
+                <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-plus': status.open, 'glyphicon-chevron-minus': !status.open}"></i>
+            </accordion-heading>
+            Watch Illinois crush Wisconsin @ 7 Pm
+        </accordion-group>
+        <accordion-group >
+            <accordion-heading>
+                Kid Cudi @ State Farm Center
+                <span class="label label-primary" style="float:right">$135</span>
+                <span style="float:right;margin-right:10px">March 6th</span>
+                <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-plus': status.open, 'glyphicon-chevron-minus': !status.open}"></i>
+            </accordion-heading>
+            Watch Illinois crush Wisconsin @ 7 Pm
+        </accordion-group>
+    </accordion>
+    <p style="font-weight:lighter;font-size:20px">
+        Festivals
+    </p>
+    <accordion close-others="true">
+        <accordion-group >
+            <accordion-heading>
+                Record Store Day @ Exile Records
+                <span class="label label-primary" style="float:right">Free</span>
+                <span style="float:right;margin-right:10px">April 9th</span>
+                <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-plus': status.open, 'glyphicon-chevron-minus': !status.open}"></i>
+            </accordion-heading>
+            Watch Illinois crush Wisconsin @ 7 Pm
+        </accordion-group>
+    </accordion>
+</div>
