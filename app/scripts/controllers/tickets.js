@@ -9,6 +9,7 @@
  */
 angular.module('ironHackerApp')
     .controller('TicketsCtrl', function ($scope, $window) {
+        $scope.userName = localStorage["userName"];
         $scope.oneAtATime = true;
 
         $scope.groups = [
@@ -34,7 +35,7 @@ angular.module('ironHackerApp')
             isFirstDisabled: false
         };
         $scope.logout = function() {
-            //loginPage=true;
+            localStorage["userName"] = ""; 
             $window.location.href = "/#";
         }
     });

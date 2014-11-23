@@ -9,13 +9,9 @@
  */
 angular.module('ironHackerApp')
     .controller('DealsCtrl', function ($scope, $window) {
-        $scope.awesomeThings = [
-            'HTML5 Boilerplate',
-            'AngularJS',
-            'Karma'
-        ];
+        $scope.userName = localStorage["userName"];
         $scope.logout = function() {
-        	//loginPage=true;
+        	localStorage["userName"] = "";
         	$window.location.href = "/#";
     	}
     });

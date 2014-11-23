@@ -9,11 +9,6 @@
  */
 angular.module('ironHackerApp')
   .controller('MainCtrl', function ($scope, $location) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
 
         $scope.login = true;
 
@@ -21,4 +16,10 @@ angular.module('ironHackerApp')
             return viewLocation === $location.path();
         };
 
+  })
+  .directive('mainHeader', function() {
+    return {
+      restrict: 'E',
+      templateUrl: 'views/main-header.html'
+    };
   });

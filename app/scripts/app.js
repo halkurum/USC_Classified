@@ -1,13 +1,5 @@
 'use strict';
 
-/**
- * @ngdoc overview
- * @name ironHackerApp
- * @description
- * # ironHackerApp
- *
- * Main module of the application.
- */
 angular
   .module('ironHackerApp', [
     'ngAnimate',

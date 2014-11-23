@@ -1,21 +1,18 @@
 'use strict';
 
-/**
- * @ngdoc function
- * @name ironHackerApp.controller:MainCtrl
- * @description
- * # MainCtrl
- * Controller of the ironHackerApp
- */
 angular.module('ironHackerApp')
     .controller('LoginCtrl', function ($scope, $window) {
-        $scope.awesomeThings = [
-            'HTML5 Boilerplate',
-            'AngularJS',
-            'Karma'
-        ];
+        $scope.userName = "";
+        $scope.password = "";
 
         $scope.login = function(){
-            $window.location.href = "/#/market";
+            if($scope.userName === "") {
+                alert('Please Enter User Name');
+            } else if($scope.password === "") {
+                alert("Please Enter Password");
+            } else {
+                localStorage["userName"] = $scope.userName;
+                $window.location.href = '/#/market';
+            }
         };
     });
