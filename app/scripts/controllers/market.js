@@ -1,13 +1,6 @@
 'use strict';
 
-/**
- * @ngdoc function
- * @name ironHackerApp.controller:MainCtrl
- * @description
- * # MainCtrl
- * Controller of the ironHackerApp
- */
-angular.module('ironHackerApp')
+angular.module('USC_Buy_Sell_App')
     .controller('MarketCtrl', function ($scope, $http, $window) {
         $scope.userName = localStorage["userName"];
 

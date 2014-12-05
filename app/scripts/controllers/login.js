@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('ironHackerApp')
+angular.module('USC_Buy_Sell_App')
     .controller('LoginCtrl', function ($scope, $window) {
         $scope.userName = "";
         $scope.password = "";

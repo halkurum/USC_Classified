@@ -1,22 +1,21 @@
 <div>
+    <div>
+        <img src="images/USC-logo.gif" height="50px" width="50px">
+        <span >University Of Southern California</span>
 
-            <div>
-                 <img src="images/USC-logo.gif" height="50px" width="50px">
-                <span >University Of Southern California</span>
+        <button style="float:right;margin-top:12px" class="btn btn-danger btn-xs" ng-click="logout()">Logout</button>
+        <span style="margin-top:12px;float:right;font-weight:lighter;color:#808080;font-size:16px;margin-right:10px">Welcome, <b>{{userName}} </b></span>
 
-                <button style="float:right;margin-top:12px" class="btn btn-danger btn-xs" ng-click="logout()">Logout</button>
-                <span style="margin-top:12px;float:right;font-weight:lighter;color:#808080;font-size:16px;margin-right:10px">Welcome, <b>{{userName}} </b></span>
+    </div>
 
-            </div>
+    <h2 style="margin-top:40px;margin-bottom:40px;font-weight:lighter; font-size:70px; margin-left:auto;margin-right:auto;text-align:center"><a href="https://www.uscbookstore.com/"><img  ng-src="/images/Trojans.jpeg" width="200"/></a></h2>
 
-            <h2 style="margin-top:40px;margin-bottom:40px;font-weight:lighter; font-size:70px; margin-left:auto;margin-right:auto;text-align:center"><img  ng-src="/images/Trojans.jpeg" width="200"/></h2>
-
-            <div class="header">
-                <ul class="nav nav-pills nav-justified">
-                    <li ng-class="{ active: isActive('/market')}"><a ng-href="/#/market">Market</a></li>
-                    <li ng-class="{ active: isActive('/deals')}"><a ng-href="/#/deals">Deals</a></li>
-                    <li ng-class="{ active: isActive('/tickets')}"><a ng-href="/#/tickets">Tickets</a></li>
-                </ul>
-            </div>
-
+    <div class="header">
+        <ul class="nav nav-pills nav-justified">
+            <li ng-class="{ active: isActive('/market')}"><a ng-href="/#/market">Market</a></li>
+            <li ng-class="{ active: isActive('/deals')}"><a ng-href="/#/deals">Deals</a></li>
+            <li ng-class="{ active: isActive('/tickets')}"><a ng-href="/#/tickets">Tickets</a></li>
+            <li ng-class="{ active: isActive('/sell')}"><a ng-href="/#/sell">Sell</a></li>
+        </ul>
+    </div>
 </div>

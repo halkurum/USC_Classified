@@ -1,7 +1,7 @@
 'use strict';
 
 angular
-  .module('ironHackerApp', [
+  .module('USC_Buy_Sell_App', [
     'ngAnimate',
     'ngCookies',
     'ngResource',
@@ -13,7 +13,7 @@ angular
   .config(function ($routeProvider) {
     'use strict';
     $routeProvider
-        .when('/', {
+      .when('/', {
         templateUrl: 'views/login.html',
         controller: 'LoginCtrl'
       })
@@ -25,10 +25,14 @@ angular
         templateUrl: 'views/deals.html',
         controller: 'DealsCtrl'
       })
-        .when('/tickets', {
-            templateUrl: 'views/tickets.html',
-            controller: 'TicketsCtrl'
-        })
+      .when('/tickets', {
+        templateUrl: 'views/tickets.html',
+        controller: 'TicketsCtrl'
+      })
+      .when('/sell', {
+        templateUrl: 'views/sell.html',
+        controller: 'SellCtrl'
+      })
 
       .otherwise({
         redirectTo: '/market'

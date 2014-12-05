@@ -1,13 +1,6 @@
 'use strict';
 
-/**
- * @ngdoc function
- * @name ironHackerApp.controller:MainCtrl
- * @description
- * # MainCtrl
- * Controller of the ironHackerApp
- */
-angular.module('ironHackerApp')
+angular.module('USC_Buy_Sell_App')
   .controller('MainCtrl', function ($scope, $location) {
 
         $scope.login = true;
